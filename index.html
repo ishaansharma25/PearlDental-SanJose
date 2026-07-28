@@ -548,20 +548,30 @@ Solo unas preguntas rápidas para entender su situación y guiarlo hacia las mej
   <p class="text-gray-500 text-sm mb-4">Le enviaremos opciones de implantes personalizadas.</p>
   <div class="space-y-4">
 
-    <!-- Full Name -->
-    <div>
-      <label class="block text-gray-700 font-medium mb-1">Nombre Completo *</label>
-      <input type="text" id="fullName" placeholder="Jane M. Doe" class="w-full border border-gray-300 rounded-xl px-4 py-3">
-      <div id="nameError" class="text-red-500 text-xs mt-1 hidden">El nombre es requerido.</div>
-    </div>
+  <div>
+  <label class="block text-gray-700 font-medium mb-1">Nombre Completo *</label>
+  <input
+    type="text"
+    id="fullName"
+    placeholder="Jane M. Doe"
+    class="w-full border border-gray-300 rounded-xl px-4 py-3 text-black placeholder-gray-400">
+  <div id="nameError" class="text-red-500 text-xs mt-1 hidden">
+    El nombre es requerido.
+  </div>
+</div>
 
-    <!-- Phone Number -->
-    <div>
-      <label class="block text-gray-700 font-medium mb-1">Número de Teléfono *</label>
-      <input type="tel" id="phoneNumber" placeholder="(555) 123-4567" class="w-full border border-gray-300 rounded-xl px-4 py-3">
-      <div id="phoneError" class="text-red-500 text-xs mt-1 hidden">Teléfono válido (mínimo 10 dígitos).</div>
-    </div>
-
+<!-- Phone Number -->
+<div>
+  <label class="block text-gray-700 font-medium mb-1">Número de Teléfono *</label>
+  <input
+    type="tel"
+    id="phoneNumber"
+    placeholder="(555) 123-4567"
+    class="w-full border border-gray-300 rounded-xl px-4 py-3 text-black placeholder-gray-400">
+  <div id="phoneError" class="text-red-500 text-xs mt-1 hidden">
+    Teléfono válido (mínimo 10 dígitos).
+  </div>
+</div>
     <!-- SMS CONSENT (ADD THIS) -->
     <div>
       <div class="flex items-start gap-3">
